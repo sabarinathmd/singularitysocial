@@ -30,8 +30,8 @@
             width: 200px;
             padding: 20px;
             margin: 10px auto;
-            background-color: #3498db;
-            color: #fff;
+            background-color: #00000000;
+            color: #00000000;
             font-size: 18px;
             border: none;
             border-radius: 5px;
@@ -40,7 +40,7 @@
         }
 
         .custom-button:hover {
-            background-color: #2980b9;
+            background-color: #00000000;
         }
 
         /* Flip Card Styles */
@@ -51,7 +51,7 @@
             perspective: 1000px;
             margin: 0 auto;
             margin-top: 20px;
-            margin-bottom: 50px;
+            margin-bottom: 80px;
         }
 
         .flip-card-inner {
@@ -77,12 +77,12 @@
         }
 
         .flip-card-front {
-            background-color: #bbb;
+            background-color: #00000000;
             color: black;
         }
 
         .flip-card-back {
-            background-color: #2980b9;
+            background-color: #00000000;
             color: white;
             transform: rotateY(180deg);
         }
@@ -102,59 +102,25 @@
                 width: 250px;
                 height: 250px;
             }
-
-            .text-container {
-                text-align: left;
-            }
-
-            .text-container p {
-                margin-left: 10px;
-                margin-right: 10px;
-            }
         }
     </style>
 </head>
 <body>
-    <!-- For laptop layout -->
-    <div class="laptop-layout">
-        <img src="./Singularity_Logo_forms.png" alt="Singularity" width="128" height="210">
-        <p>Hello Astrophiles!</p>
-        <p>Check out our social media handles and be a part of Singularity!</p>
-        <div class="buttons-container">
-            <div>
+    <img src="./Singularity_Logo_forms.png" alt="Singularity" width="128" height="210">
+    
+    <p>Hello Astrophiles!</p>
+    <p>Check out our social media handles and be a part of Singularity!</p>
+
+    <div class="buttons-container">
+        <div style="float: left; margin-right: 5px;">
+            <span>
                 <p>The office bearers of the club:</p>
                 <p>1. Rohan Kumar</p>
                 <p>2. Susnata Chattopadhyay</p>
                 <p>3. Shantonu Dutta</p>
                 <p>4. Sabarinath M D</p>
                 <p>5. Ishayu N P</p>
-            </div>
-            <div>
-                <p>The core committee of the club:</p>
-                <p>1. Abhirup Biswas</p>
-                <p>2. Bhaskar Barman</p>
-                <p>3. Aranya Mukherjee</p>
-                <p>4. Rajarshi Giri</p>
-                <p>5. Arpan Mukherjee</p>
-            </div>
-        </div>
-        <a href="https://www.linkedin.com/company/singularity-astroclubofiiserk/" class="custom-button">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/LinkedIn_Logo.svg/2560px-LinkedIn_Logo.svg.png" alt="LinkedIn" width="128" height="90">
-        </a>
-        <a href="https://www.instagram.com/singularity_iiserk?igsh=MXJxcW42NWVjMnR3YQ==" class="custom-button">
-            <img src="https://cdn.pixabay.com/photo/2020/11/15/06/18/instagram-logo-5744708_1280.png" alt="Instagram" width="128" height="90">
-        </a>
-        <a href="https://x.com/singularity_ik?t=IEigJY2sjBCjo_137y0XXQ&s=08" class="custom-button">
-            <img src="https://freelogopng.com/images/all_img/1690643591twitter-x-logo-png.png" alt="X" width="128" height="90">
-        </a>
-    </div>
-
-    <!-- For mobile layout -->
-    <div class="mobile-layout">
-        <img src="./Singularity_Logo_forms.png" alt="Singularity" width="128" height="210">
-        <div class="text-container">
-            <p>Hello Astrophiles!</p>
-            <p>Check out our social media handles and be a part of Singularity!</p>
+            </span>
             <div class="flip-card">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
@@ -165,12 +131,17 @@
                     </div>
                 </div>
             </div>
-            <p>The office bearers of the club:</p>
-            <p>1. Rohan Kumar</p>
-            <p>2. Susnata Chattopadhyay</p>
-            <p>3. Shantonu Dutta</p>
-            <p>4. Sabarinath M D</p>
-            <p>5. Ishayu N P</p>
+        </div>
+
+        <div style="float: right; margin-left: 5px;">
+            <span>
+                <p>The core committee of the club:</p>
+                <p>1. Abhirup Biswas</p>
+                <p>2. Bhaskar Barman</p>
+                <p>3. Aranya Mukherjee</p>
+                <p>4. Rajarshi Giri</p>
+                <p>5. Arpan Mukherjee</p>
+            </span>
             <div class="flip-card">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
@@ -181,21 +152,19 @@
                     </div>
                 </div>
             </div>
-            <p>The core committee of the club:</p>
-            <p>1. Abhirup Biswas</p>
-            <p>2. Bhaskar Barman</p>
-            <p>3. Aranya Mukherjee</p>
-            <p>4. Rajarshi Giri</p>
-            <p>5. Arpan Mukherjee</p>
         </div>
-        <a href="https://www.linkedin.com/company/singularity-astroclubofiiserk/" class="custom-button">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/LinkedIn_Logo.svg/2560px-LinkedIn_Logo.svg.png" alt="LinkedIn" width="128" height="90">
-        </a>
-        <a href="https://www.instagram.com/singularity_iiserk?igsh=MXJxcW42NWVjMnR3YQ==" class="custom-button">
-            <img src="https://cdn.pixabay.com/photo/2020/11/15/06/18/instagram-logo-5744708_1280.png" alt="Instagram" width="128" height="90">
-        </a>
-        <a href="https://x.com/singularity_ik?t=IEigJY2sjBCjo_137y0XXQ&s=08" class="custom-button">
-            <img src="https://freelogopng.com/images/all_img/1690643591twitter-x-logo-png.png" alt="X" width="128" height="90">
-        </a>
     </div>
-        
+
+    <a href="https://www.linkedin.com/company/singularity-astroclubofiiserk/" class="custom-button">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/LinkedIn_Logo.svg/2560px-LinkedIn_Logo.svg.png" alt="LinkedIn" width="128" height="90">
+    </a>
+    <a href="https://www.instagram.com/singularity_iiserk?igsh=MXJxcW42NWVjMnR3YQ==" class="custom-button">
+        <img src="https://cdn.pixabay.com/photo/2020/11/15/06/18/instagram-logo-5744708_1280.png" alt="Instagram" width="128" height="90">
+    </a>
+    <a href="https://x.com/singularity_ik?t=IEigJY2sjBCjo_137y0XXQ&s=08" class="custom-button">
+        <img src="https://freelogopng.com/images/all_img/1690643591twitter-x-logo-png.png" alt="X" width="128" height="90">
+    </a>
+
+    <p>These exciting developments mark a major milestone in the inception of our club, and we are thrilled to begin this new chapter alongside you. Your support and active participation in the club events play a pivotal role in shaping the future trajectory of our club.</p>
+</body>
+</html>
